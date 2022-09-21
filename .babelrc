@@ -1,0 +1,8 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+
+// Khai báo cho babel biết là phải dùng thêm những cái preset này.

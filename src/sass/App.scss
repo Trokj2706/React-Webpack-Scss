@@ -1,5 +1,10 @@
+// import
+@import url('./components/_example0.scss');
+
+// example
 .App {
   text-align: center;
+  color: red;
 }
 
 .App-logo {
@@ -26,13 +31,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
