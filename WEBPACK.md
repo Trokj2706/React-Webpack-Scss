@@ -1,5 +1,5 @@
-# WEBPACK truyền kỳ
-* Webpack là gì?
+### WEBPACK truyền kỳ
+### Webpack là gì?
     - là một gói module cho các ứng dụng Javascript.
     - Đóng gói nhiều file Javascript, CSS thành một file duy nhất, tổ chức lại các file js hợp lý.
     - Gói gọn các file Javascript và Css thành một file gọn nhất.
@@ -27,7 +27,7 @@
 
     Note: webpack chỉ hiểu được file javascript và JSON file
 
-    1. core concept
+1. core concept
     - loader (phạm vị đối với các module): Trước khi import file typecript hay scss,... phải có tiền sử lý loader nó sẽ can thiệp vào trước khi import để convert thành 1 cái module hợp lẹ
         + text: đề cập tới file mà mình muốn can thiệp vào. ex: /\.tst$/ (đối với typescript)...
         + use: trong phạm vị của text thì loader nào đc sử dụng
@@ -117,6 +117,7 @@
     + Chỉnh webpack.config.js.
     + Chạy build lại
 
-* 
+* Trên source là những config cơ bản webpack để có thể phát triển một dự án React.
+* Xem thêm về webpack-basic source ở đây: https://github.com/Trokj2706/webpack-basic
 
 

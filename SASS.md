@@ -33,7 +33,7 @@ sass/
 - main.scss
 
 ```
-1. Sử dụng biến trong SCSS + toán tử như các ngôn ngữ cơ bản 
+### Sử dụng biến trong SCSS + toán tử như các ngôn ngữ cơ bản 
     - Điều này hoạt động rất tốt khi chúng ta có một hệ thống thiết kế và muốn giữ cho màu sắc, kích thước tiêu đề và họ phông chữ nhất quán.
     
     ```
@@ -57,7 +57,7 @@ sass/
         color: $main-color;
     }
     ```
-2. Sử dụng Interpolation và mixins: giúp code style của bạn trở lên thiên biến vạn hoá hơn, tái sử dụng hiệu quả.
+### Sử dụng Interpolation và mixins: giúp code style của bạn trở lên thiên biến vạn hoá hơn, tái sử dụng hiệu quả.
     ```
     @mixin icon-name($name) {
         .icon-#{$name} {
@@ -78,7 +78,7 @@ sass/
     }
     ```
 
-3. Extends: SCSS @extend, kế thừa những thuộc tính của thành phần khác đã được khai báo trước đó, giúp giảm thời gian code và trùng lặp code.
+### Extends: SCSS @extend, kế thừa những thuộc tính của thành phần khác đã được khai báo trước đó, giúp giảm thời gian code và trùng lặp code.
     Scss
     ```
     .box {
@@ -153,9 +153,9 @@ sass/
     9. @each
     Những phần trên khá giống mixin tuỳ vào từng TH mà ứng biến. Chúng ta lướt nhanh tới phần quan trọng ở ngay bên dưới.
 
-# Sass Best Practice and Tips
+### Sass Best Practice and Tips
 
-1. BEM(Block-Element-Modifier) hiểu đơn giản nó là một quy ước đặt tên trong CSS. Nó giúp cho việc code CSS trở nên dễ đọc, dễ bảo trì và tránh bị đè thuộc tính khi bị trùng tên class, …
+### BEM(Block-Element-Modifier) hiểu đơn giản nó là một quy ước đặt tên trong CSS. Nó giúp cho việc code CSS trở nên dễ đọc, dễ bảo trì và tránh bị đè thuộc tính khi bị trùng tên class, …
     - Nói về điểm mạnh và các dùng BEM thì quá là đơn giản rồi. Tôi sẽ chỉ ra những lỗi cần tránh khi sử dụng.
     
     * NHỮNG SAI LẦM: 
